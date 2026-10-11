@@ -22,7 +22,7 @@
       "name": "Buram Larut",
       "category": "transition",
       "subcategory": "Blur & Gerak",
-      "description": "Transisi sinematik dengan kabur arah (Directional Motion Blur) ala Filmora 15.",
+      "description": "Transisi sinematik dengan kabur arah (Directional Motion Blur) presisi tinggi untuk perpindahan adegan dramatis.",
       "previewThumbnail": "linear-gradient(135deg, #2b5876 0%, #4e4376 100%)",
       "previewAnimationType": "blur",
       "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/transitions/blur_dissolve.glsl",
@@ -30,7 +30,7 @@
       "isVip": true,
       "isTrending": true,
       "durationDefaultSec": 1.2,
-      "tags": ["blur", "cinematic", "filmora", "trending"],
+      "tags": ["blur", "cinematic", "motion", "trending"],
       "shaderCode": "vec4 transition(vec2 uv) {\n  float b = progress * (1.0 - progress) * 4.0;\n  return mix(getFromColor(uv), getToColor(uv), progress);\n}"
     },
     {
@@ -309,7 +309,7 @@
       "description": "Suara gemerisik piringan hitam klasik (Vinyl Crackle Lo-Fi) untuk nuansa retro hangat.",
       "previewThumbnail": "linear-gradient(135deg, #4b1248 0%, #f0c27b 100%)",
       "previewAnimationType": "sfx",
-      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Video-Editor-Studio/main/assets-hub/sfx/vinyl_crackle.wav",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/sfx/vinyl_crackle.wav",
       "fileSize": "135 KB",
       "durationDefaultSec": 3.5,
       "tags": ["sfx", "vinyl", "lo-fi", "crackle"]
