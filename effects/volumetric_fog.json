@@ -1,0 +1,9 @@
+{
+  "id": "fx_volumetric_fog",
+  "name": "Stage Volumetric Fog",
+  "type": "vfx_overlay",
+  "vfxMode": "volumetric-fog",
+  "defaultIntensity": 75,
+  "bassReactive": false,
+  "description": "Lapisan kabut volumetrik panggung konser musik dengan kedalaman atmosfer dramatis."
+}

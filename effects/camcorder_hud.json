@@ -1,0 +1,9 @@
+{
+  "id": "fx_camcorder_hud",
+  "name": "Retro Camcorder 90s HUD",
+  "type": "vfx_overlay",
+  "vfxMode": "camcorder-hud",
+  "defaultIntensity": 85,
+  "bassReactive": false,
+  "description": "Tampilan bidik perekam kaset VHS 1990-an dengan indikator REC berkedip dan timecode vintage."
+}

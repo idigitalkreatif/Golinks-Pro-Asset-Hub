@@ -1,0 +1,9 @@
+{
+  "id": "fx_rgb_aberration",
+  "name": "RGB Chromatic Aberration",
+  "type": "vfx_overlay",
+  "vfxMode": "rgb-aberration",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "description": "Pergeseran kanal warna optik RGB yang bergetar reaktif mengikuti ketukan bass musik."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "fx_cyber_rain",
+  "name": "Matrix Cyber Neon Rain",
+  "type": "vfx_overlay",
+  "vfxMode": "cyber-rain",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "description": "Partikel neon vertikal turun perlahan menyerupai hujan data digital bercahaya lembut."
+}

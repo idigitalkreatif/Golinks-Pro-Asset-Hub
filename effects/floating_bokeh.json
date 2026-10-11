@@ -1,0 +1,9 @@
+{
+  "id": "fx_floating_bokeh",
+  "name": "Golden Floating Bokeh",
+  "type": "vfx_overlay",
+  "vfxMode": "floating-bokeh",
+  "defaultIntensity": 80,
+  "bassReactive": true,
+  "description": "Bola cahaya pendaran lensa keemasan melayang lembut di latar depan video sinematik."
+}

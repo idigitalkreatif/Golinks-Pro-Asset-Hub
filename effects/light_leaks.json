@@ -1,0 +1,9 @@
+{
+  "id": "fx_light_leaks",
+  "name": "Prism Warm Light Leaks",
+  "type": "vfx_overlay",
+  "vfxMode": "light-leaks",
+  "defaultIntensity": 80,
+  "bassReactive": true,
+  "description": "Pendaran cahaya prisma hangat yang bergerak lembut menyinari tepi layar video."
+}

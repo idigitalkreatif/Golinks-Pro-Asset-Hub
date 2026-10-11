@@ -1,0 +1,9 @@
+{
+  "id": "vis3d_vinyl_hologram",
+  "name": "3D Holographic Vinyl LP",
+  "style": "3d-vinyl-record",
+  "rotationSpeed": 33.3,
+  "holographicSheen": 0.85,
+  "metallic": 0.9,
+  "roughness": 0.2
+}

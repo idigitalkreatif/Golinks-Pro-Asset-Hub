@@ -1,0 +1,9 @@
+{
+  "id": "vis3d_quantum_tunnel",
+  "name": "3D Quantum Infinite Tunnel",
+  "style": "3d-tunnel",
+  "segments": 32,
+  "speed": 1.2,
+  "fogDistance": 45.0,
+  "bassReactivity": 2.0
+}

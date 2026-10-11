@@ -1,0 +1,10 @@
+{
+  "id": "fx_anamorphic_flare",
+  "name": "Anamorphic Blue Flare",
+  "type": "vfx_overlay",
+  "vfxMode": "anamorphic-flare",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "colorTint": "#00f0ff",
+  "description": "Kilatan cahaya lensa biru horizontal sinematik ala Hollywood (Anamorphic Streak Flare)."
+}

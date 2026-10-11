@@ -1,0 +1,9 @@
+{
+  "id": "vis3d_neon_halo",
+  "name": "3D Neon Cyber Halo",
+  "style": "3d-glowing-halo",
+  "particleCount": 1800,
+  "bloomIntensity": 1.4,
+  "cameraFov": 60,
+  "bassReactivity": 1.8
+}

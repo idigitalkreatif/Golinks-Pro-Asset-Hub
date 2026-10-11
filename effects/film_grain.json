@@ -1,0 +1,9 @@
+{
+  "id": "fx_film_grain",
+  "name": "Vintage 35mm Film Grain",
+  "type": "vfx_overlay",
+  "vfxMode": "film-grain",
+  "defaultIntensity": 75,
+  "bassReactive": false,
+  "description": "Tekstur butiran seluloid film 35mm organik untuk gradasi sinematik analog berestetika tinggi."
+}

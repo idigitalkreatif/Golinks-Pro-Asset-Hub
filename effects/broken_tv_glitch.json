@@ -1,0 +1,9 @@
+{
+  "id": "fx_broken_tv_glitch",
+  "name": "Cyber CRT TV Glitch",
+  "type": "vfx_overlay",
+  "vfxMode": "broken-tv-glitch",
+  "defaultIntensity": 90,
+  "bassReactive": true,
+  "description": "Garis scanline CRT retro dengan hentakan sinyal rusak analog berkecepatan dinamis."
+}
