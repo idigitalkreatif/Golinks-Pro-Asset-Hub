@@ -1,0 +1,11 @@
+{
+  "id": "v3d_liquid_chrome",
+  "name": "3D Liquid Chrome Ferrofluid",
+  "category": "visual3d",
+  "visualizerStyle": "3d-liquid-chrome",
+  "metalness": 0.95,
+  "viscosity": 1.2,
+  "turbulence": 1.4,
+  "color": "#00f0ff",
+  "description": "Logam merkuri cair 3D kromium Y3K yang meliuk reaktif dengan semburan paku ferrofluid magnetik pada sub-bass 808."
+}

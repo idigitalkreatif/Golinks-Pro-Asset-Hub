@@ -1,0 +1,10 @@
+{
+  "id": "v3d_lidar_pointcloud",
+  "name": "3D LiDAR Holographic Point Cloud",
+  "category": "visual3d",
+  "visualizerStyle": "3d-lidar-pointcloud",
+  "pointDensity": 1200,
+  "laserColor": "#00ffcc",
+  "scanSpeed": 1.5,
+  "description": "Pemindaian matriks partikel laser 3D LiDAR holografik generasi 2026 yang bergetar dinamis mengikuti spektrum frekuensi audio."
+}

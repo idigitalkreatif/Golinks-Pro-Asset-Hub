@@ -1,0 +1,10 @@
+{
+  "id": "fx_lidar_pointcloud",
+  "name": "3D LiDAR Holographic Scan",
+  "type": "vfx_overlay",
+  "vfxMode": "lidar-pointcloud-scan",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "colorTint": "#00ffcc",
+  "description": "Matriks pemindaian partikel hologram laser 3D LiDAR dengan berkas sinar pemindai vertikal dinamis 60 FPS."
+}
