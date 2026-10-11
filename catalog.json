@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "updatedAt": "2026-10-11T14:49:21.982Z",
+  "updatedAt": "2026-10-11T15:04:14.251Z",
   "assets": [
     {
       "id": "trans_cross_dissolve",
@@ -1436,6 +1436,28 @@
         "pointcloud",
         "hologram",
         "laser",
+        "2026"
+      ]
+    },
+    {
+      "id": "fx_music_player_hud",
+      "name": "Floating Music Player Card (Spotify / Apple Music)",
+      "category": "effect",
+      "subcategory": "Pemutar Musik & HUD",
+      "description": "Kartu pemutar musik modern bergaya Spotify & Apple Music dengan cover album, judul lagu, artis, progress bar timeline, dan mini audio waveform 60 FPS.",
+      "previewThumbnail": "linear-gradient(135deg, #10b981 0%, #06b6d4 50%, #3b82f6 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/music_player_hud.json",
+      "fileSize": "44 KB",
+      "isTrending": true,
+      "durationDefaultSec": 10,
+      "tags": [
+        "efek",
+        "music",
+        "player",
+        "spotify",
+        "hud",
+        "overlay",
+        "waveform",
         "2026"
       ]
     }

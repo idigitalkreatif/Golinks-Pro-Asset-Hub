@@ -1,0 +1,10 @@
+{
+  "id": "fx_music_player_hud",
+  "name": "Floating Music Player Card (Spotify / Apple Music)",
+  "type": "vfx_overlay",
+  "vfxMode": "music-player-hud",
+  "defaultIntensity": 100,
+  "bassReactive": true,
+  "colorTint": "#10b981",
+  "description": "Kartu pemutar musik modern bergaya Spotify & Apple Music dengan cover album, judul lagu, artis, progress bar timeline, dan mini audio waveform 60 FPS."
+}
