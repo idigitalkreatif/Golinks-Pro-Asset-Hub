@@ -1357,48 +1357,7 @@
         "retro"
       ]
     },
-    {
-      "id": "fx_liquid_chrome",
-      "name": "3D Liquid Chrome & Ferrofluid",
-      "category": "effect",
-      "subcategory": "Logam & Fluida Y3K",
-      "description": "Merkuri logam cair 3D kromium Y3K dengan paku magnetik ferrofluid audio-reaktif dan kilauan pearlescent.",
-      "previewThumbnail": "linear-gradient(135deg, #00f0ff 0%, #7000ff 50%, #ff007f 100%)",
-      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/liquid_chrome.json",
-      "fileSize": "48 KB",
-      "isVip": true,
-      "isTrending": true,
-      "durationDefaultSec": 8,
-      "tags": [
-        "efek",
-        "liquid",
-        "chrome",
-        "ferrofluid",
-        "y3k",
-        "2026"
-      ]
-    },
-    {
-      "id": "fx_lidar_pointcloud",
-      "name": "3D LiDAR Holographic Scan",
-      "category": "effect",
-      "subcategory": "Hologram & Laser",
-      "description": "Matriks pemindaian partikel hologram laser 3D LiDAR dengan berkas sinar pemindai vertikal dinamis 60 FPS.",
-      "previewThumbnail": "linear-gradient(135deg, #00ffcc 0%, #0284c7 50%, #8b5cf6 100%)",
-      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/lidar_pointcloud.json",
-      "fileSize": "52 KB",
-      "isVip": true,
-      "isTrending": true,
-      "durationDefaultSec": 8,
-      "tags": [
-        "efek",
-        "lidar",
-        "pointcloud",
-        "hologram",
-        "laser",
-        "2026"
-      ]
-    },
+
     {
       "id": "vis3d_liquid_chrome",
       "name": "3D Liquid Chrome Ferrofluid",
