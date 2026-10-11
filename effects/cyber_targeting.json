@@ -1,0 +1,10 @@
+{
+  "id": "fx_cyber_targeting",
+  "name": "Futuristic Sci-Fi Targeting Reticle",
+  "type": "vfx_overlay",
+  "vfxMode": "cyber-targeting",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "colorTint": "#00f0ff",
+  "description": "Lingkaran bidik HUD futuristik berputar dinamis dengan crosshair dan lock-on."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "fx_hexagonal_bokeh",
+  "name": "Cinematic Hexagonal Lens Bokeh",
+  "type": "vfx_overlay",
+  "vfxMode": "hexagonal-bokeh",
+  "defaultIntensity": 80,
+  "bassReactive": true,
+  "colorTint": "#ffc878",
+  "description": "Pendaran aperture lensa sinematik bentuk segi-enam optik dengan depth blur lembut."
+}

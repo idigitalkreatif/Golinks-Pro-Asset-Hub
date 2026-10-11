@@ -1,0 +1,9 @@
+{
+  "id": "vis3d_liquid_orb",
+  "name": "3D Molten Mercury Liquid Orb",
+  "style": "3d-liquid-orb",
+  "meshSubdivisions": 5,
+  "metalness": 0.95,
+  "roughness": 0.05,
+  "bassReactivity": 2.4
+}

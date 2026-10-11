@@ -1,0 +1,10 @@
+{
+  "id": "fx_heart_particles",
+  "name": "Neon Floating Romantic Hearts",
+  "type": "vfx_overlay",
+  "vfxMode": "floating-hearts",
+  "defaultIntensity": 80,
+  "bassReactive": true,
+  "colorTint": "#ff4d6d",
+  "description": "Partikel hati neon lembut merah muda melayang naik dengan pendaran cahaya hangat untuk lagu romantis."
+}

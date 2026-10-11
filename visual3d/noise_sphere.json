@@ -1,0 +1,9 @@
+{
+  "id": "vis3d_noise_sphere",
+  "name": "3D WebGL Noise Particle Sphere",
+  "style": "webgl-sphere",
+  "particleCount": 2400,
+  "bloomIntensity": 1.6,
+  "cameraFov": 65,
+  "bassReactivity": 2.0
+}

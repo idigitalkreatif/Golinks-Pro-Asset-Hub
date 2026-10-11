@@ -1,0 +1,10 @@
+{
+  "id": "fx_lens_shatter",
+  "name": "Prismatic Diamond Glass Shatter",
+  "type": "vfx_overlay",
+  "vfxMode": "lens-shatter",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "colorTint": "#a8c0ff",
+  "description": "Refraksi kristal prisma berlian dan pantulan sudut faset kaca sinematik."
+}

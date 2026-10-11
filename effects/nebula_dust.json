@@ -1,0 +1,10 @@
+{
+  "id": "fx_nebula_dust",
+  "name": "Cosmic Nebula Mist & Stardust",
+  "type": "vfx_overlay",
+  "vfxMode": "nebula-dust",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "colorTint": "#a855f7",
+  "description": "Awan nebula angkasa kosmik ungu-cyan dengan debu bintang berkelap-kelip dinamis."
+}

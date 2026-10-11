@@ -1,0 +1,10 @@
+{
+  "id": "fx_laser_grid",
+  "name": "80s Synthwave Neon Laser Grid",
+  "type": "vfx_overlay",
+  "vfxMode": "laser-grid",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "colorTint": "#ff00a0",
+  "description": "Lantai grid laser neon ungu-magenta bergaya retro synthwave 1980-an melaju dinamis."
+}

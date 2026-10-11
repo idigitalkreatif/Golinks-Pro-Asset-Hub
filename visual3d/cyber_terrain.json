@@ -1,0 +1,9 @@
+{
+  "id": "vis3d_cyber_terrain",
+  "name": "3D Cyberpunk Grid Mesh Terrain",
+  "style": "3d-terrain",
+  "gridDensity": 64,
+  "wireframeGlow": 1.5,
+  "cameraFov": 70,
+  "bassReactivity": 2.2
+}

@@ -1,0 +1,10 @@
+{
+  "id": "fx_cherry_blossom",
+  "name": "Floating Sakura Blossom Petals",
+  "type": "vfx_overlay",
+  "vfxMode": "cherry-blossom",
+  "defaultIntensity": 80,
+  "bassReactive": false,
+  "colorTint": "#ffb7c5",
+  "description": "Kelopak bunga sakura Jepang merah muda melayang anggun tertiup angin musim semi."
+}

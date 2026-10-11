@@ -1,0 +1,9 @@
+{
+  "id": "fx_cinema_bars",
+  "name": "Ultra-Panavision 2.39:1 Letterbox",
+  "type": "vfx_overlay",
+  "vfxMode": "cinema-bars",
+  "defaultIntensity": 100,
+  "bassReactive": false,
+  "description": "Framing bioskop Hollywood anamorphic dengan bayangan lembut dan aksen framing profesional."
+}

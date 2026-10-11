@@ -1,0 +1,9 @@
+{
+  "id": "fx_radial_speed_lines",
+  "name": "Hyper Anime Action Speed Lines",
+  "type": "vfx_overlay",
+  "vfxMode": "speed-lines",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "description": "Garis kecepatan radial dramatis ala anime aksi melesat dari tepi luar ke pusat fokus."
+}

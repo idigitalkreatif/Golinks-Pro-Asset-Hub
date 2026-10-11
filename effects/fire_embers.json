@@ -1,0 +1,10 @@
+{
+  "id": "fx_fire_embers",
+  "name": "Cinematic 3D Fire Embers",
+  "type": "vfx_overlay",
+  "vfxMode": "fire-embers",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "colorTint": "#ff5722",
+  "description": "Percikan bara api merah-oranye keemasan melayang naik dengan kedalaman 3D dan pendaran reaktif bass."
+}

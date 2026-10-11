@@ -1,0 +1,10 @@
+{
+  "id": "fx_autumn_leaves",
+  "name": "Golden Autumn Falling Leaves",
+  "type": "vfx_overlay",
+  "vfxMode": "autumn-leaves",
+  "defaultIntensity": 80,
+  "bassReactive": false,
+  "colorTint": "#eb6e1e",
+  "description": "Daun musim gugur oranye melayang dan berputar ditiup angin syahdu."
+}

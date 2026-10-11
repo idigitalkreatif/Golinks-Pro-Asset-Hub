@@ -1,0 +1,9 @@
+{
+  "id": "fx_pixel_glitch",
+  "name": "Digital Block Mosaic Pixel Glitch",
+  "type": "vfx_overlay",
+  "vfxMode": "pixel-glitch",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "description": "Blok piksel mosaik digital acak berkedip saat drop frekuensi nada."
+}

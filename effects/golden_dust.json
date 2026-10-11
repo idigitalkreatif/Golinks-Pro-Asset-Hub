@@ -1,0 +1,10 @@
+{
+  "id": "fx_golden_dust",
+  "name": "Luxury Gold Sparkle Particles",
+  "type": "vfx_overlay",
+  "vfxMode": "golden-dust",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "colorTint": "#ffd700",
+  "description": "Partikel debu emas gemerlap melayang lambat untuk nuansa mewah, megah, dan sakral."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "fx_kaleidoscope",
+  "name": "Prismatic Optical Kaleidoscope",
+  "type": "vfx_overlay",
+  "vfxMode": "kaleidoscope",
+  "defaultIntensity": 80,
+  "bassReactive": false,
+  "description": "Refraksi simetri cermin kaleidoskop prisma optik berputar dinamis."
+}

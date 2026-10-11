@@ -1,0 +1,9 @@
+{
+  "id": "fx_confetti_blast",
+  "name": "Party Festival Confetti Blast",
+  "type": "vfx_overlay",
+  "vfxMode": "confetti-blast",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "description": "Hujan taburan konfeti pesta perayaan warna-warni melayang turun meriah."
+}

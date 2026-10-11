@@ -1,0 +1,10 @@
+{
+  "id": "fx_sun_rays",
+  "name": "Volumetric Golden God Rays",
+  "type": "vfx_overlay",
+  "vfxMode": "sun-rays",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "colorTint": "#ffe066",
+  "description": "Sinar cahaya matahari hangat menembus dari sudut atas layar membentuk pilar cahaya surgawi."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "fx_glitch_chroma_waves",
+  "name": "Hologram Glitch Chroma Waves",
+  "type": "vfx_overlay",
+  "vfxMode": "chroma-waves",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "description": "Gelombang interferensi sinyal hologram futuristik beriak melintasi frame."
+}

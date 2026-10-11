@@ -1,0 +1,10 @@
+{
+  "id": "fx_underwater_caustics",
+  "name": "Deep Aqua Underwater Caustics",
+  "type": "vfx_overlay",
+  "vfxMode": "underwater-caustics",
+  "defaultIntensity": 80,
+  "bassReactive": true,
+  "colorTint": "#00b4d8",
+  "description": "Refraksi jaring cahaya gelombang air laut biru-turkis menembus kedalaman air."
+}

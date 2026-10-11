@@ -1,0 +1,9 @@
+{
+  "id": "fx_rainbow_prism",
+  "name": "Full Spectrum Rainbow Prism Leak",
+  "type": "vfx_overlay",
+  "vfxMode": "rainbow-prism",
+  "defaultIntensity": 85,
+  "bassReactive": false,
+  "description": "Pendaran cahaya spektrum pelangi menyinari sudut layar ala lensa kristal optik."
+}

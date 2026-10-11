@@ -1,0 +1,10 @@
+{
+  "id": "fx_radar_sweep",
+  "name": "Military Sci-Fi Sonar Radar",
+  "type": "vfx_overlay",
+  "vfxMode": "radar-sweep",
+  "defaultIntensity": 80,
+  "bassReactive": false,
+  "colorTint": "#00ff80",
+  "description": "Sapuan garis lingkar radar sonar militer berputar 360 derajat dengan trail fosfor hijau."
+}

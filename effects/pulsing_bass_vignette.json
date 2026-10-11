@@ -1,0 +1,9 @@
+{
+  "id": "fx_pulsing_bass_vignette",
+  "name": "Pumping Sonic Bass Vignette",
+  "type": "vfx_overlay",
+  "vfxMode": "bass-vignette",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "description": "Vignette gelap audio-reaktif yang memompa kuat dan berdenyut mengikuti kick drum musik."
+}

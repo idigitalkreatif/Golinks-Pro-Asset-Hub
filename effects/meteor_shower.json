@@ -1,0 +1,10 @@
+{
+  "id": "fx_meteor_shower",
+  "name": "Cosmic Starlight Meteor Shower",
+  "type": "vfx_overlay",
+  "vfxMode": "meteor-shower",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "colorTint": "#ffffff",
+  "description": "Hujan meteor dan bintang jatuh melesat diagonal membelah langit malam dengan ekor cahaya tajam."
+}

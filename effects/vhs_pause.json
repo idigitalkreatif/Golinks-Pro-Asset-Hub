@@ -1,0 +1,9 @@
+{
+  "id": "fx_vhs_pause",
+  "name": "VHS VCR Frozen Pause Jitter",
+  "type": "vfx_overlay",
+  "vfxMode": "vhs-pause",
+  "defaultIntensity": 85,
+  "bassReactive": false,
+  "description": "Distorsi garis head kaset VHS saat video di-pause atau di-freeze dengan noise tracking."
+}

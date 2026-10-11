@@ -1,0 +1,10 @@
+{
+  "id": "fx_strobe_flash",
+  "name": "Heavy Club Strobe Flash",
+  "type": "vfx_overlay",
+  "vfxMode": "strobe-flash",
+  "defaultIntensity": 75,
+  "bassReactive": true,
+  "colorTint": "#ffffff",
+  "description": "Kilatan cahaya strobo putih intensif berkedip sinkron dengan drop dan ketukan musik keras."
+}

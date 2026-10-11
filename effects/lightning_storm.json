@@ -1,0 +1,10 @@
+{
+  "id": "fx_lightning_storm",
+  "name": "Electric Lightning Storm Arc",
+  "type": "vfx_overlay",
+  "vfxMode": "lightning-storm",
+  "defaultIntensity": 90,
+  "bassReactive": true,
+  "colorTint": "#00f0ff",
+  "description": "Sambar busur petir elektrik cyan-putih menyala dramatis saat hentakan musik keras/drop."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "fx_snow_blizzard",
+  "name": "Cinematic Winter Snow Blizzard",
+  "type": "vfx_overlay",
+  "vfxMode": "snow-blizzard",
+  "defaultIntensity": 80,
+  "bassReactive": false,
+  "colorTint": "#ffffff",
+  "description": "Serpihan salju putih lembut melayang turun dengan turbulensi angin dinamis untuk suasana syahdu."
+}

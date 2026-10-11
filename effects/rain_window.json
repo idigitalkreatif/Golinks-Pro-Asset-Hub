@@ -1,0 +1,10 @@
+{
+  "id": "fx_rain_window",
+  "name": "Raindrops on Glass Window",
+  "type": "vfx_overlay",
+  "vfxMode": "rain-window",
+  "defaultIntensity": 80,
+  "bassReactive": false,
+  "colorTint": "#b4dcff",
+  "description": "Tetesan air hujan mengalir realistis di kaca jendela kamera dengan pendaran cahaya basah."
+}

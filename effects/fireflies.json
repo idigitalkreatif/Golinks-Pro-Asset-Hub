@@ -1,0 +1,10 @@
+{
+  "id": "fx_fireflies",
+  "name": "Night Enchanted Fireflies",
+  "type": "vfx_overlay",
+  "vfxMode": "fireflies",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "colorTint": "#ffff8c",
+  "description": "Koloni kunang-kunang hutan bercahaya keemasan melayang syahdu di kegelapan malam."
+}

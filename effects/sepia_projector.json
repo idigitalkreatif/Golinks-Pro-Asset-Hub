@@ -1,0 +1,9 @@
+{
+  "id": "fx_sepia_projector",
+  "name": "1920s Silent Film Sepia Projector",
+  "type": "vfx_overlay",
+  "vfxMode": "sepia-projector",
+  "defaultIntensity": 80,
+  "bassReactive": false,
+  "description": "Gradasi warna sepia hangat dengan flicker lampu proyektor bioskop bisu era 1920-an."
+}

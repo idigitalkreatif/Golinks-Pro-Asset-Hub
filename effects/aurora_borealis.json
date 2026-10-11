@@ -1,0 +1,10 @@
+{
+  "id": "fx_aurora_borealis",
+  "name": "Emerald Northern Aurora Borealis",
+  "type": "vfx_overlay",
+  "vfxMode": "aurora-borealis",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "colorTint": "#00ff88",
+  "description": "Gelombang tirai cahaya aurora hijau zamrud melambai anggun di langit malam."
+}

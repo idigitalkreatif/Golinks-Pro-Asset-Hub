@@ -1,0 +1,9 @@
+{
+  "id": "fx_disco_mirror_ball",
+  "name": "Retro 80s Disco Ball Mirror Dots",
+  "type": "vfx_overlay",
+  "vfxMode": "disco-dots",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "description": "Pendaran pantulan cermin bola disko berputar memenuhi ruangan dengan warna-warni pesta."
+}

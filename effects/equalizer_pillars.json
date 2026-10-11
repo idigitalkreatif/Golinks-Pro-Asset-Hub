@@ -1,0 +1,10 @@
+{
+  "id": "fx_equalizer_pillars",
+  "name": "Concert Audio Equalizer Pillars",
+  "type": "vfx_overlay",
+  "vfxMode": "equalizer-pillars",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "colorTint": "#00f0ff",
+  "description": "Pilar bar cahaya panggung audio-reaktif naik-turun dinamis mengikuti beat audio."
+}

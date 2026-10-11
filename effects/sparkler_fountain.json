@@ -1,0 +1,10 @@
+{
+  "id": "fx_sparkler_fountain",
+  "name": "Stage Concert Sparkler Fountain",
+  "type": "vfx_overlay",
+  "vfxMode": "sparkler-fountain",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "colorTint": "#fff096",
+  "description": "Percikan kembang api panggung konser musik menyembur ke atas dinamis."
+}

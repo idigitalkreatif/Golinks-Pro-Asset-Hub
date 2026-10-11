@@ -1,0 +1,10 @@
+{
+  "id": "fx_ground_fog",
+  "name": "Low Ground Rolling Fog Creep",
+  "type": "vfx_overlay",
+  "vfxMode": "ground-fog",
+  "defaultIntensity": 80,
+  "bassReactive": false,
+  "colorTint": "#dcebfa",
+  "description": "Kabut tebal merayap di dasar lantai panggung konser secara misterius."
+}

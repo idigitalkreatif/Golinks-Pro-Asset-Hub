@@ -1,0 +1,10 @@
+{
+  "id": "fx_water_bubbles",
+  "name": "Deep Ocean Oxygen Bubbles",
+  "type": "vfx_overlay",
+  "vfxMode": "water-bubbles",
+  "defaultIntensity": 80,
+  "bassReactive": false,
+  "colorTint": "#b4ebff",
+  "description": "Gelembung oksigen bawah laut melayang naik dengan pendaran cahaya berkilau."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "fx_thermal_vision",
+  "name": "Predator Thermal Heat Vision",
+  "type": "vfx_overlay",
+  "vfxMode": "thermal-vision",
+  "defaultIntensity": 85,
+  "bassReactive": false,
+  "description": "Pemindai gradasi spektrum panas inframerah biru-oranye-merah ala penglihatan predator."
+}

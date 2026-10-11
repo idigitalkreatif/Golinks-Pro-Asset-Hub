@@ -1,0 +1,10 @@
+{
+  "id": "fx_sound_shockwave",
+  "name": "Sonic Bass Shockwave Rings",
+  "type": "vfx_overlay",
+  "vfxMode": "sound-shockwave",
+  "defaultIntensity": 90,
+  "bassReactive": true,
+  "colorTint": "#00f0ff",
+  "description": "Cincin gelombang kejut sonik meluas audio-reaktif dari pusat layar saat hentakan bass drum."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "fx_film_dust",
+  "name": "16mm Vintage Dust & Scratches",
+  "type": "vfx_overlay",
+  "vfxMode": "film-dust",
+  "defaultIntensity": 80,
+  "bassReactive": false,
+  "description": "Debu putih dan goresan seluloid film 16mm antik bergerak organik di atas adegan."
+}

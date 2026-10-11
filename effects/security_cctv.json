@@ -1,0 +1,10 @@
+{
+  "id": "fx_security_cctv",
+  "name": "Night Vision CCTV Surveillance HUD",
+  "type": "vfx_overlay",
+  "vfxMode": "cctv-nightvision",
+  "defaultIntensity": 85,
+  "bassReactive": false,
+  "colorTint": "#00ff66",
+  "description": "Tampilan kamera pengawas monokrom inframerah hijau dengan grain noise dan timestamp digital."
+}

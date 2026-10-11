@@ -1,0 +1,10 @@
+{
+  "id": "fx_laser_strobe",
+  "name": "Club Concert Neon Laser Beams",
+  "type": "vfx_overlay",
+  "vfxMode": "laser-strobe",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "colorTint": "#00f0ff",
+  "description": "Berkas garis laser neon panggung konser musik membelah layar dengan pantulan reaktif terhadap denyut bass."
+}

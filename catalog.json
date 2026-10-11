@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "updatedAt": "2026-10-11T12:00:00Z",
+  "version": "2.0.0",
+  "updatedAt": "2026-10-11T13:46:24.125Z",
   "assets": [
     {
       "id": "trans_cross_dissolve",
@@ -13,16 +13,21 @@
       "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/transitions/cross_dissolve.glsl",
       "fileSize": "24 KB",
       "isTrending": true,
-      "durationDefaultSec": 1.0,
-      "tags": ["dissolve", "fade", "smooth", "populer"],
-      "shaderCode": "vec4 transition(vec2 uv) {\n  return mix(getFromColor(uv), getToColor(uv), progress);\n}"
+      "durationDefaultSec": 1,
+      "tags": [
+        "dissolve",
+        "fade",
+        "smooth",
+        "populer"
+      ],
+      "shaderCode": "\n      vec4 transition(vec2 uv) {\n        return mix(getFromColor(uv), getToColor(uv), progress);\n      }\n    "
     },
     {
       "id": "trans_blur_dissolve",
       "name": "Buram Larut",
       "category": "transition",
       "subcategory": "Blur & Gerak",
-      "description": "Transisi sinematik dengan kabur arah (Directional Motion Blur) presisi tinggi untuk perpindahan adegan dramatis.",
+      "description": "Transisi sinematik dengan kabur arah (Directional Motion Blur) ala Filmora 15.",
       "previewThumbnail": "linear-gradient(135deg, #2b5876 0%, #4e4376 100%)",
       "previewAnimationType": "blur",
       "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/transitions/blur_dissolve.glsl",
@@ -30,8 +35,13 @@
       "isVip": true,
       "isTrending": true,
       "durationDefaultSec": 1.2,
-      "tags": ["blur", "cinematic", "motion", "trending"],
-      "shaderCode": "vec4 transition(vec2 uv) {\n  float b = progress * (1.0 - progress) * 4.0;\n  return mix(getFromColor(uv), getToColor(uv), progress);\n}"
+      "tags": [
+        "blur",
+        "cinematic",
+        "filmora",
+        "trending"
+      ],
+      "shaderCode": "\n      vec4 transition(vec2 uv) {\n        float b = progress * (1.0 - progress) * 4.0;\n        return mix(getFromColor(uv), getToColor(uv), progress);\n      }\n    "
     },
     {
       "id": "trans_whip_pan",
@@ -45,7 +55,12 @@
       "fileSize": "36 KB",
       "isTrending": true,
       "durationDefaultSec": 0.8,
-      "tags": ["wipe", "whip pan", "action", "fast"]
+      "tags": [
+        "wipe",
+        "whip pan",
+        "action",
+        "fast"
+      ]
     },
     {
       "id": "trans_zoom_in",
@@ -59,8 +74,13 @@
       "fileSize": "32 KB",
       "isVip": true,
       "isTrending": true,
-      "durationDefaultSec": 1.0,
-      "tags": ["zoom", "in", "scale", "popular"]
+      "durationDefaultSec": 1,
+      "tags": [
+        "zoom",
+        "in",
+        "scale",
+        "popular"
+      ]
     },
     {
       "id": "trans_film_burn",
@@ -75,7 +95,12 @@
       "isVip": true,
       "isTrending": true,
       "durationDefaultSec": 1.5,
-      "tags": ["burn", "light leak", "film", "vintage"]
+      "tags": [
+        "burn",
+        "light leak",
+        "film",
+        "vintage"
+      ]
     },
     {
       "id": "trans_chromatic_glitch",
@@ -89,7 +114,12 @@
       "fileSize": "52 KB",
       "isVip": true,
       "durationDefaultSec": 0.9,
-      "tags": ["glitch", "rgb", "cyberpunk", "distortion"]
+      "tags": [
+        "glitch",
+        "rgb",
+        "cyberpunk",
+        "distortion"
+      ]
     },
     {
       "id": "trans_doorway_3d",
@@ -103,7 +133,12 @@
       "fileSize": "58 KB",
       "isVip": true,
       "durationDefaultSec": 1.2,
-      "tags": ["3d", "doorway", "perspective", "cube"]
+      "tags": [
+        "3d",
+        "doorway",
+        "perspective",
+        "cube"
+      ]
     },
     {
       "id": "trans_slow_zoom",
@@ -116,7 +151,11 @@
       "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/transitions/slow_zoom.glsl",
       "fileSize": "28 KB",
       "durationDefaultSec": 1.8,
-      "tags": ["slow", "cinematic", "smooth"]
+      "tags": [
+        "slow",
+        "cinematic",
+        "smooth"
+      ]
     },
     {
       "id": "fx_anamorphic_flare",
@@ -129,8 +168,14 @@
       "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/anamorphic_flare.json",
       "fileSize": "42 KB",
       "isTrending": true,
-      "durationDefaultSec": 6.0,
-      "tags": ["efek", "flare", "anamorphic", "lens", "cinematic"]
+      "durationDefaultSec": 6,
+      "tags": [
+        "efek",
+        "flare",
+        "anamorphic",
+        "lens",
+        "cinematic"
+      ]
     },
     {
       "id": "fx_film_grain",
@@ -143,8 +188,14 @@
       "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/film_grain.json",
       "fileSize": "56 KB",
       "isTrending": true,
-      "durationDefaultSec": 10.0,
-      "tags": ["efek", "grain", "film", "analog", "vintage"]
+      "durationDefaultSec": 10,
+      "tags": [
+        "efek",
+        "grain",
+        "film",
+        "analog",
+        "vintage"
+      ]
     },
     {
       "id": "fx_light_leaks",
@@ -158,8 +209,14 @@
       "fileSize": "68 KB",
       "isVip": true,
       "isTrending": true,
-      "durationDefaultSec": 8.0,
-      "tags": ["efek", "light leak", "prisma", "cahaya", "warm"]
+      "durationDefaultSec": 8,
+      "tags": [
+        "efek",
+        "light leak",
+        "prisma",
+        "cahaya",
+        "warm"
+      ]
     },
     {
       "id": "fx_rgb_aberration",
@@ -172,8 +229,14 @@
       "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/rgb_aberration.json",
       "fileSize": "38 KB",
       "isVip": true,
-      "durationDefaultSec": 5.0,
-      "tags": ["efek", "rgb", "aberration", "glitch", "bass"]
+      "durationDefaultSec": 5,
+      "tags": [
+        "efek",
+        "rgb",
+        "aberration",
+        "glitch",
+        "bass"
+      ]
     },
     {
       "id": "fx_broken_tv_glitch",
@@ -185,8 +248,14 @@
       "previewAnimationType": "glitch",
       "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/broken_tv_glitch.json",
       "fileSize": "45 KB",
-      "durationDefaultSec": 4.0,
-      "tags": ["efek", "crt", "glitch", "tv", "cyberpunk"]
+      "durationDefaultSec": 4,
+      "tags": [
+        "efek",
+        "crt",
+        "glitch",
+        "tv",
+        "cyberpunk"
+      ]
     },
     {
       "id": "fx_cyber_rain",
@@ -198,8 +267,14 @@
       "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/cyber_rain.json",
       "fileSize": "60 KB",
       "isVip": true,
-      "durationDefaultSec": 8.0,
-      "tags": ["efek", "rain", "matrix", "cyber", "neon"]
+      "durationDefaultSec": 8,
+      "tags": [
+        "efek",
+        "rain",
+        "matrix",
+        "cyber",
+        "neon"
+      ]
     },
     {
       "id": "fx_floating_bokeh",
@@ -210,8 +285,14 @@
       "previewThumbnail": "linear-gradient(135deg, #ffe259 0%, #ffa751 100%)",
       "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/floating_bokeh.json",
       "fileSize": "52 KB",
-      "durationDefaultSec": 10.0,
-      "tags": ["efek", "bokeh", "gold", "particles", "light"]
+      "durationDefaultSec": 10,
+      "tags": [
+        "efek",
+        "bokeh",
+        "gold",
+        "particles",
+        "light"
+      ]
     },
     {
       "id": "fx_volumetric_fog",
@@ -222,8 +303,14 @@
       "previewThumbnail": "linear-gradient(135deg, #304352 0%, #d7d2cc 100%)",
       "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/volumetric_fog.json",
       "fileSize": "48 KB",
-      "durationDefaultSec": 12.0,
-      "tags": ["efek", "fog", "smoke", "stage", "cinematic"]
+      "durationDefaultSec": 12,
+      "tags": [
+        "efek",
+        "fog",
+        "smoke",
+        "stage",
+        "cinematic"
+      ]
     },
     {
       "id": "fx_camcorder_hud",
@@ -234,8 +321,820 @@
       "previewThumbnail": "linear-gradient(135deg, #1f1c2c 0%, #928dab 100%)",
       "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/camcorder_hud.json",
       "fileSize": "34 KB",
-      "durationDefaultSec": 8.0,
-      "tags": ["efek", "camcorder", "hud", "rec", "vintage"]
+      "durationDefaultSec": 8,
+      "tags": [
+        "efek",
+        "camcorder",
+        "hud",
+        "rec",
+        "vintage"
+      ]
+    },
+    {
+      "id": "fx_nebula_dust",
+      "name": "Cosmic Nebula Mist & Stardust",
+      "category": "effect",
+      "subcategory": "Partikel & Angkasa",
+      "description": "Awan nebula angkasa kosmik ungu-cyan dengan debu bintang berkelap-kelip dinamis.",
+      "previewThumbnail": "linear-gradient(135deg, #654ea3 0%, #eaafc8 100%)",
+      "previewAnimationType": "blur",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/nebula_dust.json",
+      "fileSize": "55 KB",
+      "isTrending": true,
+      "durationDefaultSec": 8,
+      "tags": [
+        "efek",
+        "nebula",
+        "stardust",
+        "space",
+        "cosmic"
+      ]
+    },
+    {
+      "id": "fx_fire_embers",
+      "name": "Cinematic 3D Fire Embers",
+      "category": "effect",
+      "subcategory": "Partikel & Api",
+      "description": "Percikan bara api merah-oranye keemasan melayang naik dengan kedalaman 3D dan pendaran reaktif bass.",
+      "previewThumbnail": "linear-gradient(135deg, #ff4e50 0%, #f9d423 100%)",
+      "previewAnimationType": "burn",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/fire_embers.json",
+      "fileSize": "62 KB",
+      "isVip": true,
+      "isTrending": true,
+      "durationDefaultSec": 10,
+      "tags": [
+        "efek",
+        "fire",
+        "embers",
+        "sparks",
+        "cinematic"
+      ]
+    },
+    {
+      "id": "fx_laser_strobe",
+      "name": "Club Concert Neon Laser Beams",
+      "category": "effect",
+      "subcategory": "Konser & Cahaya",
+      "description": "Berkas garis laser neon panggung konser musik membelah layar dengan pantulan reaktif terhadap denyut bass.",
+      "previewThumbnail": "linear-gradient(135deg, #00f2fe 0%, #4facfe 100%)",
+      "previewAnimationType": "blur",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/laser_strobe.json",
+      "fileSize": "44 KB",
+      "isTrending": true,
+      "durationDefaultSec": 8,
+      "tags": [
+        "efek",
+        "laser",
+        "club",
+        "concert",
+        "strobe"
+      ]
+    },
+    {
+      "id": "fx_snow_blizzard",
+      "name": "Cinematic Winter Snow Blizzard",
+      "category": "effect",
+      "subcategory": "Cuaca & Alam",
+      "description": "Serpihan salju putih lembut melayang turun dengan turbulensi angin dinamis untuk suasana syahdu.",
+      "previewThumbnail": "linear-gradient(135deg, #e6dada 0%, #274046 100%)",
+      "previewAnimationType": "dissolve",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/snow_blizzard.json",
+      "fileSize": "58 KB",
+      "durationDefaultSec": 12,
+      "tags": [
+        "efek",
+        "snow",
+        "winter",
+        "blizzard",
+        "particles"
+      ]
+    },
+    {
+      "id": "fx_vhs_tape_damage",
+      "name": "Vintage VHS Magnetic Tape Damage",
+      "category": "effect",
+      "subcategory": "Retro & Glitch",
+      "description": "Garis tracking rusak kaset VHS analog, jitter horizontal, dan distorsi magnetik kaset 80s/90s.",
+      "previewThumbnail": "linear-gradient(135deg, #2c3e50 0%, #3498db 100%)",
+      "previewAnimationType": "glitch",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/vhs_tape_damage.json",
+      "fileSize": "46 KB",
+      "isTrending": true,
+      "durationDefaultSec": 6,
+      "tags": [
+        "efek",
+        "vhs",
+        "glitch",
+        "tracking",
+        "retro"
+      ]
+    },
+    {
+      "id": "fx_lens_shatter",
+      "name": "Prismatic Diamond Glass Shatter",
+      "category": "effect",
+      "subcategory": "Distorsi Lensa",
+      "description": "Refraksi kristal prisma berlian dan pantulan sudut faset kaca sinematik.",
+      "previewThumbnail": "linear-gradient(135deg, #a8c0ff 0%, #3f2b96 100%)",
+      "previewAnimationType": "dissolve",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/lens_shatter.json",
+      "fileSize": "50 KB",
+      "isVip": true,
+      "durationDefaultSec": 8,
+      "tags": [
+        "efek",
+        "diamond",
+        "glass",
+        "prism",
+        "refraction"
+      ]
+    },
+    {
+      "id": "fx_golden_dust",
+      "name": "Luxury Gold Sparkle Particles",
+      "category": "effect",
+      "subcategory": "Cahaya & Partikel",
+      "description": "Partikel debu emas gemerlap melayang lambat untuk nuansa mewah, megah, dan sakral.",
+      "previewThumbnail": "linear-gradient(135deg, #f7971e 0%, #ffd200 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/golden_dust.json",
+      "fileSize": "54 KB",
+      "isVip": true,
+      "isTrending": true,
+      "durationDefaultSec": 10,
+      "tags": [
+        "efek",
+        "gold",
+        "sparkle",
+        "luxury",
+        "particles"
+      ]
+    },
+    {
+      "id": "fx_lightning_storm",
+      "name": "Electric Lightning Storm Arc",
+      "category": "effect",
+      "subcategory": "Aksi & Listrik",
+      "description": "Sambar busur petir elektrik cyan-putih menyala dramatis saat hentakan musik keras/drop.",
+      "previewThumbnail": "linear-gradient(135deg, #00c6ff 0%, #0072ff 100%)",
+      "previewAnimationType": "glitch",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/lightning_storm.json",
+      "fileSize": "40 KB",
+      "isTrending": true,
+      "durationDefaultSec": 6,
+      "tags": [
+        "efek",
+        "lightning",
+        "storm",
+        "electric",
+        "bass"
+      ]
+    },
+    {
+      "id": "fx_underwater_caustics",
+      "name": "Deep Aqua Underwater Caustics",
+      "category": "effect",
+      "subcategory": "Cahaya & Air",
+      "description": "Refraksi jaring cahaya gelombang air laut biru-turkis menembus kedalaman air.",
+      "previewThumbnail": "linear-gradient(135deg, #13547a 0%, #80d0c7 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/underwater_caustics.json",
+      "fileSize": "52 KB",
+      "durationDefaultSec": 10,
+      "tags": [
+        "efek",
+        "underwater",
+        "aqua",
+        "caustics",
+        "water"
+      ]
+    },
+    {
+      "id": "fx_cinema_bars",
+      "name": "Ultra-Panavision 2.39:1 Letterbox",
+      "category": "effect",
+      "subcategory": "Lensa Sinematik",
+      "description": "Framing bioskop Hollywood anamorphic dengan bayangan lembut dan aksen framing profesional.",
+      "previewThumbnail": "linear-gradient(135deg, #000000 0%, #434343 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/cinema_bars.json",
+      "fileSize": "22 KB",
+      "durationDefaultSec": 15,
+      "tags": [
+        "efek",
+        "letterbox",
+        "cinema",
+        "anamorphic",
+        "aspect"
+      ]
+    },
+    {
+      "id": "fx_radial_speed_lines",
+      "name": "Hyper Anime Action Speed Lines",
+      "category": "effect",
+      "subcategory": "Aksi & Kecepatan",
+      "description": "Garis kecepatan radial dramatis ala anime aksi melesat dari tepi luar ke pusat fokus.",
+      "previewThumbnail": "linear-gradient(135deg, #2b5876 0%, #4e4376 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/radial_speed_lines.json",
+      "fileSize": "36 KB",
+      "durationDefaultSec": 6,
+      "tags": [
+        "efek",
+        "speed lines",
+        "anime",
+        "action",
+        "zoom"
+      ]
+    },
+    {
+      "id": "fx_aurora_borealis",
+      "name": "Emerald Northern Aurora Borealis",
+      "category": "effect",
+      "subcategory": "Atmosfer & Asap",
+      "description": "Gelombang tirai cahaya aurora hijau zamrud melambai anggun di langit malam.",
+      "previewThumbnail": "linear-gradient(135deg, #0ba360 0%, #3cba92 100%)",
+      "previewAnimationType": "blur",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/aurora_borealis.json",
+      "fileSize": "66 KB",
+      "isVip": true,
+      "isTrending": true,
+      "durationDefaultSec": 12,
+      "tags": [
+        "efek",
+        "aurora",
+        "northern lights",
+        "emerald",
+        "sky"
+      ]
+    },
+    {
+      "id": "fx_heart_particles",
+      "name": "Neon Floating Romantic Hearts",
+      "category": "effect",
+      "subcategory": "Partikel & Romantis",
+      "description": "Partikel hati neon lembut merah muda melayang naik dengan pendaran cahaya hangat untuk lagu romantis.",
+      "previewThumbnail": "linear-gradient(135deg, #ff0844 0%, #ffb199 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/heart_particles.json",
+      "fileSize": "48 KB",
+      "durationDefaultSec": 10,
+      "tags": [
+        "efek",
+        "hearts",
+        "love",
+        "romantic",
+        "particles"
+      ]
+    },
+    {
+      "id": "fx_disco_mirror_ball",
+      "name": "Retro 80s Disco Ball Mirror Dots",
+      "category": "effect",
+      "subcategory": "Retro & Overlay",
+      "description": "Pendaran pantulan cermin bola disko berputar memenuhi ruangan dengan warna-warni pesta.",
+      "previewThumbnail": "linear-gradient(135deg, #f857a6 0%, #ff5858 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/disco_mirror_ball.json",
+      "fileSize": "44 KB",
+      "durationDefaultSec": 8,
+      "tags": [
+        "efek",
+        "disco",
+        "mirror ball",
+        "party",
+        "retro"
+      ]
+    },
+    {
+      "id": "fx_security_cctv",
+      "name": "Night Vision CCTV Surveillance HUD",
+      "category": "effect",
+      "subcategory": "Retro & Overlay",
+      "description": "Tampilan kamera pengawas monokrom inframerah hijau dengan grain noise dan timestamp digital.",
+      "previewThumbnail": "linear-gradient(135deg, #021b1a 0%, #00ff87 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/security_cctv.json",
+      "fileSize": "38 KB",
+      "durationDefaultSec": 8,
+      "tags": [
+        "efek",
+        "cctv",
+        "night vision",
+        "hud",
+        "surveillance"
+      ]
+    },
+    {
+      "id": "fx_glitch_chroma_waves",
+      "name": "Hologram Glitch Chroma Waves",
+      "category": "effect",
+      "subcategory": "Distorsi Lensa",
+      "description": "Gelombang interferensi sinyal hologram futuristik beriak melintasi frame.",
+      "previewThumbnail": "linear-gradient(135deg, #b224ef 0%, #7579ff 100%)",
+      "previewAnimationType": "glitch",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/glitch_chroma_waves.json",
+      "fileSize": "42 KB",
+      "isVip": true,
+      "durationDefaultSec": 6,
+      "tags": [
+        "efek",
+        "hologram",
+        "chroma",
+        "waves",
+        "glitch"
+      ]
+    },
+    {
+      "id": "fx_sun_rays",
+      "name": "Volumetric Golden God Rays",
+      "category": "effect",
+      "subcategory": "Kebocoran Cahaya",
+      "description": "Sinar cahaya matahari hangat menembus dari sudut atas layar membentuk pilar cahaya surgawi.",
+      "previewThumbnail": "linear-gradient(135deg, #ffe000 0%, #799f0c 100%)",
+      "previewAnimationType": "blur",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/sun_rays.json",
+      "fileSize": "58 KB",
+      "isTrending": true,
+      "durationDefaultSec": 12,
+      "tags": [
+        "efek",
+        "sun rays",
+        "god rays",
+        "volumetric",
+        "light"
+      ]
+    },
+    {
+      "id": "fx_pulsing_bass_vignette",
+      "name": "Pumping Sonic Bass Vignette",
+      "category": "effect",
+      "subcategory": "Aksi & Kecepatan",
+      "description": "Vignette gelap audio-reaktif yang memompa kuat dan berdenyut mengikuti kick drum musik.",
+      "previewThumbnail": "linear-gradient(135deg, #000000 0%, #434343 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/pulsing_bass_vignette.json",
+      "fileSize": "28 KB",
+      "durationDefaultSec": 8,
+      "tags": [
+        "efek",
+        "vignette",
+        "bass",
+        "pumping",
+        "audio reactive"
+      ]
+    },
+    {
+      "id": "fx_cherry_blossom",
+      "name": "Floating Sakura Blossom Petals",
+      "category": "effect",
+      "subcategory": "Partikel & Romantis",
+      "description": "Kelopak bunga sakura Jepang merah muda melayang anggun tertiup angin musim semi.",
+      "previewThumbnail": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #fecfef 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/cherry_blossom.json",
+      "fileSize": "44 KB",
+      "isTrending": true,
+      "durationDefaultSec": 10,
+      "tags": [
+        "efek",
+        "sakura",
+        "cherry blossom",
+        "petals",
+        "romantic"
+      ]
+    },
+    {
+      "id": "fx_rain_window",
+      "name": "Raindrops on Glass Window",
+      "category": "effect",
+      "subcategory": "Cuaca & Alam",
+      "description": "Tetesan air hujan mengalir realistis di kaca jendela kamera dengan pendaran cahaya basah.",
+      "previewThumbnail": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "previewAnimationType": "blur",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/rain_window.json",
+      "fileSize": "48 KB",
+      "isTrending": true,
+      "durationDefaultSec": 10,
+      "tags": [
+        "efek",
+        "rain",
+        "window",
+        "droplets",
+        "moody"
+      ]
+    },
+    {
+      "id": "fx_fireflies",
+      "name": "Night Enchanted Fireflies",
+      "category": "effect",
+      "subcategory": "Cahaya & Partikel",
+      "description": "Koloni kunang-kunang hutan bercahaya keemasan melayang syahdu di kegelapan malam.",
+      "previewThumbnail": "linear-gradient(135deg, #134e5e 0%, #71b280 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/fireflies.json",
+      "fileSize": "40 KB",
+      "isVip": true,
+      "durationDefaultSec": 12,
+      "tags": [
+        "efek",
+        "fireflies",
+        "nature",
+        "night",
+        "glow"
+      ]
+    },
+    {
+      "id": "fx_autumn_leaves",
+      "name": "Golden Autumn Falling Leaves",
+      "category": "effect",
+      "subcategory": "Cuaca & Alam",
+      "description": "Daun musim gugur oranye melayang dan berputar ditiup angin syahdu.",
+      "previewThumbnail": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/autumn_leaves.json",
+      "fileSize": "42 KB",
+      "durationDefaultSec": 10,
+      "tags": [
+        "efek",
+        "autumn",
+        "leaves",
+        "gold",
+        "fall"
+      ]
+    },
+    {
+      "id": "fx_meteor_shower",
+      "name": "Cosmic Starlight Meteor Shower",
+      "category": "effect",
+      "subcategory": "Partikel & Angkasa",
+      "description": "Hujan meteor dan bintang jatuh melesat diagonal membelah langit malam dengan ekor cahaya tajam.",
+      "previewThumbnail": "linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%)",
+      "previewAnimationType": "blur",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/meteor_shower.json",
+      "fileSize": "52 KB",
+      "isVip": true,
+      "isTrending": true,
+      "durationDefaultSec": 8,
+      "tags": [
+        "efek",
+        "meteor",
+        "stars",
+        "cosmic",
+        "space"
+      ]
+    },
+    {
+      "id": "fx_confetti_blast",
+      "name": "Party Festival Confetti Blast",
+      "category": "effect",
+      "subcategory": "Aksi & Kecepatan",
+      "description": "Hujan taburan konfeti pesta perayaan warna-warni melayang turun meriah.",
+      "previewThumbnail": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/confetti_blast.json",
+      "fileSize": "46 KB",
+      "isTrending": true,
+      "durationDefaultSec": 8,
+      "tags": [
+        "efek",
+        "confetti",
+        "party",
+        "celebration",
+        "festival"
+      ]
+    },
+    {
+      "id": "fx_hexagonal_bokeh",
+      "name": "Cinematic Hexagonal Lens Bokeh",
+      "category": "effect",
+      "subcategory": "Lensa Sinematik",
+      "description": "Pendaran aperture lensa sinematik bentuk segi-enam optik dengan depth blur lembut.",
+      "previewThumbnail": "linear-gradient(135deg, #30cfd0 0%, #330867 100%)",
+      "previewAnimationType": "blur",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/hexagonal_bokeh.json",
+      "fileSize": "50 KB",
+      "isVip": true,
+      "durationDefaultSec": 10,
+      "tags": [
+        "efek",
+        "bokeh",
+        "hexagonal",
+        "aperture",
+        "lens"
+      ]
+    },
+    {
+      "id": "fx_rainbow_prism",
+      "name": "Full Spectrum Rainbow Prism Leak",
+      "category": "effect",
+      "subcategory": "Kebocoran Cahaya",
+      "description": "Pendaran cahaya spektrum pelangi menyinari sudut layar ala lensa kristal optik.",
+      "previewThumbnail": "linear-gradient(135deg, #ff0844 0%, #ffb199 100%)",
+      "previewAnimationType": "burn",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/rainbow_prism.json",
+      "fileSize": "54 KB",
+      "isTrending": true,
+      "durationDefaultSec": 10,
+      "tags": [
+        "efek",
+        "rainbow",
+        "prism",
+        "light leak",
+        "spectrum"
+      ]
+    },
+    {
+      "id": "fx_sparkler_fountain",
+      "name": "Stage Concert Sparkler Fountain",
+      "category": "effect",
+      "subcategory": "Konser & Cahaya",
+      "description": "Percikan kembang api panggung konser musik menyembur ke atas dinamis.",
+      "previewThumbnail": "linear-gradient(135deg, #f12711 0%, #f5af19 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/sparkler_fountain.json",
+      "fileSize": "48 KB",
+      "isTrending": true,
+      "durationDefaultSec": 8,
+      "tags": [
+        "efek",
+        "sparkler",
+        "fountain",
+        "stage",
+        "concert"
+      ]
+    },
+    {
+      "id": "fx_sound_shockwave",
+      "name": "Sonic Bass Shockwave Rings",
+      "category": "effect",
+      "subcategory": "Aksi & Kecepatan",
+      "description": "Cincin gelombang kejut sonik meluas audio-reaktif dari pusat layar saat hentakan bass drum.",
+      "previewThumbnail": "linear-gradient(135deg, #0575e6 0%, #00f260 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/sound_shockwave.json",
+      "fileSize": "38 KB",
+      "isVip": true,
+      "durationDefaultSec": 6,
+      "tags": [
+        "efek",
+        "shockwave",
+        "bass",
+        "audio reactive",
+        "rings"
+      ]
+    },
+    {
+      "id": "fx_strobe_flash",
+      "name": "Heavy Club Strobe Flash",
+      "category": "effect",
+      "subcategory": "Konser & Cahaya",
+      "description": "Kilatan cahaya strobo putih intensif berkedip sinkron dengan drop dan ketukan musik keras.",
+      "previewThumbnail": "linear-gradient(135deg, #2b5876 0%, #4e4376 100%)",
+      "previewAnimationType": "glitch",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/strobe_flash.json",
+      "fileSize": "32 KB",
+      "durationDefaultSec": 6,
+      "tags": [
+        "efek",
+        "strobe",
+        "flash",
+        "club",
+        "edm"
+      ]
+    },
+    {
+      "id": "fx_film_dust",
+      "name": "16mm Vintage Dust & Scratches",
+      "category": "effect",
+      "subcategory": "Tekstur & Film",
+      "description": "Debu putih dan goresan seluloid film 16mm antik bergerak organik di atas adegan.",
+      "previewThumbnail": "linear-gradient(135deg, #232526 0%, #414345 100%)",
+      "previewAnimationType": "dissolve",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/film_dust.json",
+      "fileSize": "44 KB",
+      "durationDefaultSec": 10,
+      "tags": [
+        "efek",
+        "dust",
+        "scratches",
+        "16mm",
+        "vintage"
+      ]
+    },
+    {
+      "id": "fx_thermal_vision",
+      "name": "Predator Thermal Heat Vision",
+      "category": "effect",
+      "subcategory": "Distorsi Lensa",
+      "description": "Pemindai gradasi spektrum panas inframerah biru-oranye-merah ala penglihatan predator.",
+      "previewThumbnail": "linear-gradient(135deg, #ff0844 0%, #00f0ff 100%)",
+      "previewAnimationType": "glitch",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/thermal_vision.json",
+      "fileSize": "36 KB",
+      "isVip": true,
+      "durationDefaultSec": 6,
+      "tags": [
+        "efek",
+        "thermal",
+        "infrared",
+        "vision",
+        "sci-fi"
+      ]
+    },
+    {
+      "id": "fx_pixel_glitch",
+      "name": "Digital Block Mosaic Pixel Glitch",
+      "category": "effect",
+      "subcategory": "Glitch & Retro",
+      "description": "Blok piksel mosaik digital acak berkedip saat drop frekuensi nada.",
+      "previewThumbnail": "linear-gradient(135deg, #4b1248 0%, #f0c27b 100%)",
+      "previewAnimationType": "glitch",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/pixel_glitch.json",
+      "fileSize": "38 KB",
+      "durationDefaultSec": 6,
+      "tags": [
+        "efek",
+        "pixel",
+        "glitch",
+        "mosaic",
+        "digital"
+      ]
+    },
+    {
+      "id": "fx_radar_sweep",
+      "name": "Military Sci-Fi Sonar Radar",
+      "category": "effect",
+      "subcategory": "Retro & Overlay",
+      "description": "Sapuan garis lingkar radar sonar militer berputar 360 derajat dengan trail fosfor hijau.",
+      "previewThumbnail": "linear-gradient(135deg, #021b1a 0%, #00ff87 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/radar_sweep.json",
+      "fileSize": "36 KB",
+      "durationDefaultSec": 8,
+      "tags": [
+        "efek",
+        "radar",
+        "sonar",
+        "hud",
+        "military"
+      ]
+    },
+    {
+      "id": "fx_cyber_targeting",
+      "name": "Futuristic Sci-Fi Targeting Reticle",
+      "category": "effect",
+      "subcategory": "Retro & Overlay",
+      "description": "Lingkaran bidik HUD futuristik berputar dinamis dengan crosshair dan lock-on.",
+      "previewThumbnail": "linear-gradient(135deg, #00c6ff 0%, #0072ff 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/cyber_targeting.json",
+      "fileSize": "40 KB",
+      "isVip": true,
+      "durationDefaultSec": 8,
+      "tags": [
+        "efek",
+        "hud",
+        "reticle",
+        "targeting",
+        "cyberpunk"
+      ]
+    },
+    {
+      "id": "fx_kaleidoscope",
+      "name": "Prismatic Optical Kaleidoscope",
+      "category": "effect",
+      "subcategory": "Distorsi Lensa",
+      "description": "Refraksi simetri cermin kaleidoskop prisma optik berputar dinamis.",
+      "previewThumbnail": "linear-gradient(135deg, #b224ef 0%, #7579ff 100%)",
+      "previewAnimationType": "dissolve",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/kaleidoscope.json",
+      "fileSize": "52 KB",
+      "isVip": true,
+      "isTrending": true,
+      "durationDefaultSec": 8,
+      "tags": [
+        "efek",
+        "kaleidoscope",
+        "mirror",
+        "symmetry",
+        "prism"
+      ]
+    },
+    {
+      "id": "fx_laser_grid",
+      "name": "80s Synthwave Neon Laser Grid",
+      "category": "effect",
+      "subcategory": "Konser & Cahaya",
+      "description": "Lantai grid laser neon ungu-magenta bergaya retro synthwave 1980-an melaju dinamis.",
+      "previewThumbnail": "linear-gradient(135deg, #ff007f 0%, #7928ca 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/laser_grid.json",
+      "fileSize": "46 KB",
+      "isTrending": true,
+      "durationDefaultSec": 10,
+      "tags": [
+        "efek",
+        "synthwave",
+        "grid",
+        "retro",
+        "neon"
+      ]
+    },
+    {
+      "id": "fx_water_bubbles",
+      "name": "Deep Ocean Oxygen Bubbles",
+      "category": "effect",
+      "subcategory": "Cahaya & Air",
+      "description": "Gelembung oksigen bawah laut melayang naik dengan pendaran cahaya berkilau.",
+      "previewThumbnail": "linear-gradient(135deg, #13547a 0%, #80d0c7 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/water_bubbles.json",
+      "fileSize": "42 KB",
+      "durationDefaultSec": 10,
+      "tags": [
+        "efek",
+        "bubbles",
+        "underwater",
+        "aqua",
+        "water"
+      ]
+    },
+    {
+      "id": "fx_sepia_projector",
+      "name": "1920s Silent Film Sepia Projector",
+      "category": "effect",
+      "subcategory": "Tekstur & Film",
+      "description": "Gradasi warna sepia hangat dengan flicker lampu proyektor bioskop bisu era 1920-an.",
+      "previewThumbnail": "linear-gradient(135deg, #3e2723 0%, #d7ccc8 100%)",
+      "previewAnimationType": "burn",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/sepia_projector.json",
+      "fileSize": "40 KB",
+      "durationDefaultSec": 10,
+      "tags": [
+        "efek",
+        "sepia",
+        "1920s",
+        "projector",
+        "silent film"
+      ]
+    },
+    {
+      "id": "fx_ground_fog",
+      "name": "Low Ground Rolling Fog Creep",
+      "category": "effect",
+      "subcategory": "Atmosfer & Asap",
+      "description": "Kabut tebal merayap di dasar lantai panggung konser secara misterius.",
+      "previewThumbnail": "linear-gradient(135deg, #304352 0%, #d7d2cc 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/ground_fog.json",
+      "fileSize": "44 KB",
+      "durationDefaultSec": 12,
+      "tags": [
+        "efek",
+        "fog",
+        "ground",
+        "smoke",
+        "creepy"
+      ]
+    },
+    {
+      "id": "fx_equalizer_pillars",
+      "name": "Concert Audio Equalizer Pillars",
+      "category": "effect",
+      "subcategory": "Konser & Cahaya",
+      "description": "Pilar bar cahaya panggung audio-reaktif naik-turun dinamis mengikuti beat audio.",
+      "previewThumbnail": "linear-gradient(135deg, #00f2fe 0%, #4facfe 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/equalizer_pillars.json",
+      "fileSize": "42 KB",
+      "isTrending": true,
+      "durationDefaultSec": 8,
+      "tags": [
+        "efek",
+        "equalizer",
+        "pillars",
+        "audio reactive",
+        "concert"
+      ]
+    },
+    {
+      "id": "fx_vhs_pause",
+      "name": "VHS VCR Frozen Pause Jitter",
+      "category": "effect",
+      "subcategory": "Glitch & Retro",
+      "description": "Distorsi garis head kaset VHS saat video di-pause atau di-freeze dengan noise tracking.",
+      "previewThumbnail": "linear-gradient(135deg, #2c3e50 0%, #3498db 100%)",
+      "previewAnimationType": "glitch",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/effects/vhs_pause.json",
+      "fileSize": "36 KB",
+      "durationDefaultSec": 6,
+      "tags": [
+        "efek",
+        "vhs",
+        "pause",
+        "jitter",
+        "retro"
+      ]
+    },
+    {
+      "id": "vis3d_noise_sphere",
+      "name": "3D WebGL Noise Particle Sphere",
+      "category": "visual3d",
+      "subcategory": "Partikel 3D",
+      "description": "Bola partikel noise 3D dinamis dengan reaksi spektrum frekuensi audio instan.",
+      "previewThumbnail": "linear-gradient(135deg, #00f0ff 0%, #0072ff 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/visual3d/noise_sphere.json",
+      "fileSize": "160 KB",
+      "isTrending": true,
+      "tags": [
+        "3d",
+        "sphere",
+        "noise",
+        "particles",
+        "webgl"
+      ]
     },
     {
       "id": "vis3d_neon_halo",
@@ -248,7 +1147,12 @@
       "fileSize": "120 KB",
       "isVip": true,
       "isTrending": true,
-      "tags": ["3d", "halo", "mesh", "particle"]
+      "tags": [
+        "3d",
+        "halo",
+        "mesh",
+        "particle"
+      ]
     },
     {
       "id": "vis3d_quantum_tunnel",
@@ -260,7 +1164,48 @@
       "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/visual3d/quantum_tunnel.json",
       "fileSize": "180 KB",
       "isVip": true,
-      "tags": ["3d", "tunnel", "perspective", "infinite"]
+      "tags": [
+        "3d",
+        "tunnel",
+        "perspective",
+        "infinite"
+      ]
+    },
+    {
+      "id": "vis3d_cyber_terrain",
+      "name": "3D Cyberpunk Grid Mesh Terrain",
+      "category": "visual3d",
+      "subcategory": "Lanskap 3D",
+      "description": "Lanskap grid mesh 3D futuristik bergelombang mengikuti energi bass audio.",
+      "previewThumbnail": "linear-gradient(135deg, #ff007f 0%, #7928ca 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/visual3d/cyber_terrain.json",
+      "fileSize": "175 KB",
+      "isTrending": true,
+      "tags": [
+        "3d",
+        "terrain",
+        "wireframe",
+        "grid",
+        "cyberpunk"
+      ]
+    },
+    {
+      "id": "vis3d_liquid_orb",
+      "name": "3D Molten Mercury Liquid Orb",
+      "category": "visual3d",
+      "subcategory": "Fluida 3D",
+      "description": "Bola cairan merkuri 3D dengan refleksi kromium cair dinamis bereaksi terhadap audio.",
+      "previewThumbnail": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/visual3d/liquid_orb.json",
+      "fileSize": "190 KB",
+      "isVip": true,
+      "tags": [
+        "3d",
+        "liquid",
+        "orb",
+        "mercury",
+        "fluid"
+      ]
     },
     {
       "id": "vis3d_vinyl_hologram",
@@ -271,7 +1216,12 @@
       "previewThumbnail": "linear-gradient(135deg, #1f1c2c 0%, #928dab 100%)",
       "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/visual3d/vinyl_hologram.json",
       "fileSize": "145 KB",
-      "tags": ["3d", "vinyl", "record", "retro"]
+      "tags": [
+        "3d",
+        "vinyl",
+        "record",
+        "retro"
+      ]
     },
     {
       "id": "sfx_cinema_whoosh",
@@ -285,7 +1235,12 @@
       "fileSize": "92 KB",
       "isTrending": true,
       "durationDefaultSec": 1.1,
-      "tags": ["sfx", "whoosh", "transition", "impact"]
+      "tags": [
+        "sfx",
+        "whoosh",
+        "transition",
+        "impact"
+      ]
     },
     {
       "id": "sfx_sub_drop",
@@ -298,8 +1253,13 @@
       "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/sfx/sub_drop.wav",
       "fileSize": "110 KB",
       "isVip": true,
-      "durationDefaultSec": 2.0,
-      "tags": ["sfx", "sub", "bass", "drop"]
+      "durationDefaultSec": 2,
+      "tags": [
+        "sfx",
+        "sub",
+        "bass",
+        "drop"
+      ]
     },
     {
       "id": "sfx_vinyl_crackle",
@@ -312,7 +1272,90 @@
       "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/sfx/vinyl_crackle.wav",
       "fileSize": "135 KB",
       "durationDefaultSec": 3.5,
-      "tags": ["sfx", "vinyl", "lo-fi", "crackle"]
+      "tags": [
+        "sfx",
+        "vinyl",
+        "lo-fi",
+        "crackle"
+      ]
+    },
+    {
+      "id": "sfx_riser_tension",
+      "name": "High-Tension Synth Riser",
+      "category": "soundfx",
+      "subcategory": "Riser & Buildup",
+      "description": "Sapuan nada naik synthesizer dramatis untuk membangun klimaks sebelum drop lagu.",
+      "previewThumbnail": "linear-gradient(135deg, #ff0844 0%, #ffb199 100%)",
+      "previewAnimationType": "sfx",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/sfx/riser_tension.wav",
+      "fileSize": "140 KB",
+      "isTrending": true,
+      "durationDefaultSec": 2.5,
+      "tags": [
+        "sfx",
+        "riser",
+        "buildup",
+        "tension",
+        "synth"
+      ]
+    },
+    {
+      "id": "sfx_bass_boom",
+      "name": "Cinematic 808 Bass Boom",
+      "category": "soundfx",
+      "subcategory": "Impact & Boom",
+      "description": "Dentuman bass 808 sonik sinematik berdaya getar tinggi untuk penekanan transisi adegan.",
+      "previewThumbnail": "linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%)",
+      "previewAnimationType": "sfx",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/sfx/bass_boom.wav",
+      "fileSize": "125 KB",
+      "isVip": true,
+      "durationDefaultSec": 2.2,
+      "tags": [
+        "sfx",
+        "bass",
+        "808",
+        "boom",
+        "impact"
+      ]
+    },
+    {
+      "id": "sfx_glitch_hit",
+      "name": "Cyber Digital Glitch Hit",
+      "category": "soundfx",
+      "subcategory": "Glitch & Sci-Fi",
+      "description": "Hentakan distorsi digital cyber dengan stutter reaktif untuk transisi glitch.",
+      "previewThumbnail": "linear-gradient(135deg, #0575e6 0%, #00f260 100%)",
+      "previewAnimationType": "sfx",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/sfx/glitch_hit.wav",
+      "fileSize": "85 KB",
+      "durationDefaultSec": 1,
+      "tags": [
+        "sfx",
+        "glitch",
+        "cyber",
+        "stutter",
+        "hit"
+      ]
+    },
+    {
+      "id": "sfx_tape_rewind",
+      "name": "Retro Tape Cassette Rewind",
+      "category": "soundfx",
+      "subcategory": "Retro & Vintage",
+      "description": "Suara putar balik pita kaset jadul berkecepatan tinggi dengan tekstur analog unik.",
+      "previewThumbnail": "linear-gradient(135deg, #1f1c2c 0%, #928dab 100%)",
+      "previewAnimationType": "sfx",
+      "downloadUrl": "https://raw.githubusercontent.com/idigitalkreatif/Golinks-Pro-Asset-Hub/main/sfx/tape_rewind.wav",
+      "fileSize": "98 KB",
+      "durationDefaultSec": 1.5,
+      "tags": [
+        "sfx",
+        "tape",
+        "rewind",
+        "cassette",
+        "retro"
+      ]
     }
   ]
 }

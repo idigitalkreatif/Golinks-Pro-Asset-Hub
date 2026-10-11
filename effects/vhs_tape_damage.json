@@ -1,0 +1,9 @@
+{
+  "id": "fx_vhs_tape_damage",
+  "name": "Vintage VHS Magnetic Tape Damage",
+  "type": "vfx_overlay",
+  "vfxMode": "vhs-damage",
+  "defaultIntensity": 85,
+  "bassReactive": true,
+  "description": "Garis tracking rusak kaset VHS analog, jitter horizontal, dan distorsi magnetik kaset 80s/90s."
+}
